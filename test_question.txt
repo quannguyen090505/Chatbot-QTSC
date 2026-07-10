@@ -1,0 +1,128 @@
+# --- 1. CLOUD SERVER TỔNG QUAN (6 CÂU) ---
+ Giới thiệu tổng quan về hệ sinh thái đám mây QTSC --- cloud_server_tong_quan
+ Xài cloud có ưu điểm gì so với mua máy vật lý tốn kém --- cloud_server_tong_quan
+ Doanh nghiệp sme xài máy chủ ảo đc khong ad --- cloud_server_tong_quan
+ clou server ben ban co nhung loi ich gi --- cloud_server_tong_quan
+ tóm tắt hệ sih thái đím mây q.t.s.c --- cloud_server_tong_quan
+ mướn cloud tiết kiêm chi phí s z --- cloud_server_tong_quan
+=======================================================================
+ Bảng giá thuê VPS theo tháng hiện tại --- cloud_server_goi_cuoc_va_chi_phi
+ mua lẻ 8gb ram với 100gb ssd giá nhiu --- cloud_server_goi_cuoc_va_chi_phi
+ nâng cấp tài nguyên máy chủ bù thêm bn lúa --- cloud_server_goi_cuoc_va_chi_phi
+ gói dv01 d v 02 d v 03 chi phí s --- cloud_server_goi_cuoc_va_chi_phi
+ mún mướn vps 1 năm có díscount k --- cloud_server_goi_cuoc_va_chi_phi
+ block tài nguyên vcpu tính xiền ntn --- cloud_server_goi_cuoc_va_chi_phi
+ páo gíá c.l.o.u.d sẹt vơ goí gẽ nhứt --- cloud_server_goi_cuoc_va_chi_phi
+
+    # --- 3. CLOUD SERVER KỸ THUẬT (7 CÂU) ---
+ Cloud QTSC có hỗ trợ live migration chuyển máy không --- cloud_server_tinh_nang_ky_thuat
+ Kỹ thuật auto recovery trên máy chủ hoạt động ntn --- cloud_server_tinh_nang_ky_thuat
+ mún xuất log audit thao tác server thì vô đâu --- cloud_server_tinh_nang_ky_thuat
+ xài api hay c.l.i qản trị tài nguyên đc k --- cloud_server_tinh_nang_ky_thuat
+ kiến trúc vdc trên đa khách hàng là sao --- cloud_server_tinh_nang_ky_thuat
+ ảo hóa k.v.m củ qtsc bão mậc ko --- cloud_server_tinh_nang_ky_thuat
+ l.i.v.e m.i.g.r.a.t.i.o.n d.i.c.h c.h.u.y.e.n s --- cloud_server_tinh_nang_ky_thuat
+
+    # --- 4. DATACENTER COLOCATION (7 CÂU) ---
+ Thuê chỗ đặt máy chủ vật lý ở trung tâm dữ liệu --- dich_vu_dat_may_chu_colocation
+ giá mướn nguyên 1 tủ rack 42u --- dich_vu_dat_may_chu_colocation
+ gửi 2 con server colo tier 3 --- dich_vu_dat_may_chu_colocation
+ gởi máy trạm lỡ cúp điện có xài nguồn dự phòng k --- dich_vu_dat_may_chu_colocation
+ ttdl có cung cấp luồn điện 2 pha ko --- dich_vu_dat_may_chu_colocation
+ cho thuê ko gian đặt xẹt vơ co lố cá sần --- dich_vu_dat_may_chu_colocation
+ c.o.l.o.c.a.t.i.o.n chuẩn tia 942 k --- dich_vu_dat_may_chu_colocation
+
+    # --- 5. PRIVATE CLOUD (6 CÂU) ---
+ Muốn làm đám mây dùng riêng cho ngân hàng nhà nước --- dich_vu_private_cloud
+ private cloud hạ tầng vật lý cô lập có an toàn k --- dich_vu_private_cloud
+ thuê hạ tầng ko chia sẽ pờ rai vịt --- dich_vu_private_cloud
+ xài pri vát cờ lao toàn quyền wản trị phần cứng --- dich_vu_private_cloud
+ 1 mình cty xài nguyên cụm server cô lập đc hông --- dich_vu_private_cloud
+ mướn đám mâh sài riênq k share ai hếd --- dich_vu_private_cloud
+
+    # --- 6. BACKUP SAO LƯU (7 CÂU) ---
+ Lỡ tay xóa nhầm file quan trọng khôi phục lại đc k --- dich_vu_sao_luu_backup
+ dịch vụ backup dữ liệu ra băng từ tape --- dich_vu_sao_luu_backup
+ dính mã độc tống tiền cần cứu data bản cũ --- dich_vu_sao_luu_backup
+ béc úp disk to disk to tape là j --- dich_vu_sao_luu_backup
+ tính năng versioning lưu dc mấy bản sao --- dich_vu_sao_luu_backup
+ mướn không gian lưu trữ dự phòng cất dử liịu --- dich_vu_sao_luu_backup
+ hú hồn súyt xoá mẹ cáj foder xài b.a.c.k.u.p cíu zới --- dich_vu_sao_luu_backup
+
+    # --- 7. LOAD BALANCER CÂN BẰNG TẢI (7 CÂU) ---
+ Website quá tải cần hệ thống cân bằng tải luồng truy cập --- dich_vu_load_balancer
+ chia đều traffic cho 3 con backend server --- dich_vu_load_balancer
+ s.s.l offloading jảm tải cpu s dza --- dich_vu_load_balancer
+ lỡ 1 con web backend sập có tự chuyển dònq k --- dich_vu_load_balancer
+ chạh gjao kịch sê lờ flassh sale k sợ xập wép --- dich_vu_load_balancer
+ hệ thốg h.i.g.h a.v.a.i.l.a.b.i.l.i.t.y tự đổng điều phói --- dich_vu_load_balancer
+ load pắc lăng xơ hoat độg ntn --- dich_vu_load_balancer
+
+    # --- 8. TƯỜNG LỬA MẠNG - NETWORK FIREWALL (7 CÂU) ---
+ Cần set up vpn ipsec cho 50 nhân viên làm wfh --- dich_vu_tuong_lua_da_lop
+ Tường lửa mạng chặn port ip ntn --- dich_vu_tuong_lua_da_lop
+ n.e.t.w.o.r.k f.w có kiểm duyệt gói tin k --- dich_vu_tuong_lua_da_lop
+ cty mún tạo kênh mạng rịêng ảo s.s.l --- dich_vu_tuong_lua_da_lop
+ tườg lữa vòng ngài bão vệ hạ tằg mạng --- dich_vu_tuong_lua_da_lop
+ chặn i.p nc ngoài truy cập bằng ac sẹt cồn chôn --- dich_vu_tuong_lua_da_lop
+ chia tách vlan mạng bằq t.l.đ.l --- dich_vu_tuong_lua_da_lop
+
+    # --- 9. TƯỜNG LỬA WEB - WAF (7 CÂU) ---
+ Tường lửa ứng dụng web chống sql injection với xss --- dich_vu_tuong_lua_waf
+ wép bị hack mã nguồn xài gì chặn a --- dich_vu_tuong_lua_waf
+ ảo hóa bản vá virtual patching của w a f --- dich_vu_tuong_lua_waf
+ tường lửa web bão zệ lay dơ 7 --- dich_vu_tuong_lua_waf
+ gói waf 147 củ sài dc chô mấy domên --- dich_vu_tuong_lua_waf
+ w.a.f lọc traffic rác dô ứg dụg w.e.p --- dich_vu_tuong_lua_waf
+ bão vẹ o.w.a.s.p tốc 10 xài s zạ --- dich_vu_tuong_lua_waf
+
+    # --- 10. TƯỜNG LỬA CƠ SỞ DỮ LIỆU - DBFW (7 CÂU) ---
+ Tường lửa bảo vệ cơ sở dữ liệu sql server --- dich_vu_tuong_lua_dbfw
+ DBA nội bộ đọc trộm thẻ tín dụng cần data mask --- dich_vu_tuong_lua_dbfw
+ tường lữa c.s.d.l che mờ dữ liệu db fw --- dich_vu_tuong_lua_dbfw
+ audit thao tác xóa bản ghi trg đa ta bấy --- dich_vu_tuong_lua_dbfw
+ ngăn lệnh s.q.l lạ update database --- dich_vu_tuong_lua_dbfw
+ m.a.s.k.i.n.g chũn pci dss cho db --- dich_vu_tuong_lua_dbfw
+ bão vệ csdl lõi k pị rìnq mòi --- dich_vu_tuong_lua_dbfw
+
+    # --- 11. PHÒNG CHỐNG APT (7 CÂU) ---
+ Phòng chống virus lừa đảo qua email có chủ đích --- dich_vu_chong_apt
+ nhấp nhầm link tải file lạ đưa vô hộp cát sanbox --- dich_vu_chong_apt
+ mã đọk zi rô đây 0 day ngụy trang --- dich_vu_chong_apt
+ a.p.t diệt virus lằn nhằq qa mail --- dich_vu_chong_apt
+ san box cách ly kích nổ file nghj ngờ --- dich_vu_chong_apt
+ nv click nhằm linh sấm xét trog f.i.l.e --- dich_vu_chong_apt
+ hộp cát giả lập m.ô.i t.r.ư.ờ.n.g zảo --- dich_vu_chong_apt
+
+    # --- 12. PHÁT HIỆN NGĂN CHẶN XÂM NHẬP - IPS (7 CÂU) ---
+ Hệ thống rà quét lỗ hổng phát hiện xâm nhập ips --- dich_vu_ngan_chan_ips
+ tự động ngắt knối luồn dữ liệu độc hại --- dich_vu_ngan_chan_ips
+ i.p.s update xích nây chơ liên tuc hk --- dich_vu_ngan_chan_ips
+ phát bịnh xâm ngập rớt mạng tự ngắt a.c.t.i.v.e --- dich_vu_ngan_chan_ips
+ máy zò qét bịnh độc trên mạng net --- dich_vu_ngan_chan_ips
+ cản pakét mạg pất tjờg pằq i p x --- dich_vu_ngan_chan_ips
+ i.p.s zờm gõ lổ hổnq h.k --- dich_vu_ngan_chan_ips
+
+    # --- 13. DIỆT VIRUS - EDR (6 CÂU) ---
+ Dịch vụ e.d.r diệt virus trực tiếp trên hđh win --- dich_vu_diet_virus_edr
+ răn xôm que mã hóa hệ điều hành xài gì chặn --- dich_vu_diet_virus_edr
+ chươq trìh chặn mã độg trên máy chủ linux --- dich_vu_diet_virus_edr
+ e d r tự độq ngắt mạng máy bị nhiễk tiến trình --- dich_vu_diet_virus_edr
+ diệt vi zút chuổi hành vi s ad --- dich_vu_diet_virus_edr
+ fần mềm thay thế a.v diệt virus qá tải --- dich_vu_diet_virus_edr
+
+    # --- 14. CHỐNG DDOS (6 CÂU) ---
+ Web bị ddos nghẽn băng thông làm sập mạng --- dich_vu_chong_ddos
+ chốg đánh sập wesite = mạng bot net --- dich_vu_chong_ddos
+ jũ ni pơ core rơ lọc ta fít pẩn chốg đi đót --- dich_vu_chong_ddos
+ d.đ.o.s z.o.m.b.i.e spam traffic xài j cứu --- dich_vu_chong_ddos
+ anti ddos chặn r.e.q zác ntn --- dich_vu_chong_ddos
+ d.d.o.s lồm qá tãj sẹt.vơ chăng kễu j --- dich_vu_chong_ddos
+
+    # --- 15. GIÁM SÁT SOC (6 CÂU) ---
+ Mướn chuyên gia trực an ninh mạng s.o.c 24/7 --- dich_vu_giam_sat_soc
+ thu thập log s.i.e.m cảnh páu xự cố riu tam --- dich_vu_giam_sat_soc
+ m.s.s.p k có team i.t mướn xoc sử lý --- dich_vu_giam_sat_soc
+ chuyêng gia đều tra ngin nhân zirut hàng thág --- dich_vu_giam_sat_soc
+ páo cá0 dịnh kì bảo mật kĩ shư soc --- dich_vu_giam_sat_soc
+ thuê d.ị.c.h z.ụ giám sát q.t.s.c coi log chô pên mk --- dich_vu_giam_sat_soc

@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+underthesea
+py_vncorenlp
+joblib
+fastapi
+uvicorn

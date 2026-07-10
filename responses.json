@@ -1,0 +1,33 @@
+{
+  "cloud_server_tong_quan": "Dạ, QTSC Cloud Server là hệ sinh thái điện toán đám mây toàn diện, giúp doanh nghiệp chuyển đổi số nhanh chóng mà không tốn chi phí đầu tư phần cứng ban đầu.\n✔️ Hạ tầng chuẩn quốc tế (VMWare, Cisco, IBM).\n✔️ Triển khai siêu tốc, tối ưu hóa ngân sách.\n💡 Anh/chị đang quan tâm đến Bảng giá hay Tính năng kỹ thuật của hệ thống ạ?",
+
+  "cloud_server_goi_cuoc_va_chi_phi": "Dạ, QTSC Cloud Server áp dụng chính sách thanh toán linh hoạt 'Dùng bao nhiêu trả bấy nhiêu':\n📦 Cung cấp đa dạng gói cấu hình từ tiêu chuẩn đến cao cấp.\n⚙️ Hỗ trợ nâng cấp lẻ từng tài nguyên (vCPU, RAM, Ổ cứng SSD/HDD, IP) mà không cần đổi gói.\n💡 Hệ thống của anh/chị cần khoảng bao nhiêu GB RAM và Ổ cứng để em tư vấn gói cước phù hợp nhất ạ?",
+
+  "cloud_server_tinh_nang_ky_thuat": "Dạ, hệ thống Cloud của QTSC đáp ứng các tiêu chuẩn kỹ thuật và vận hành khắt khe nhất:\n⚡ Tính sẵn sàng cao: Hỗ trợ Live Migration và Auto-recovery giúp máy chủ không bị gián đoạn.\n🛡️ Bảo mật tuyệt đối: Áp dụng kiến trúc vDC, Multi-tenant và mã hóa luồng dữ liệu.\n🛠 Quản trị thông minh: Hỗ trợ API/CLI và giám sát tài nguyên tự động.\n💡 Anh/chị cần xem chi tiết về Khả năng bảo mật hay Cơ chế vận hành ạ?",
+
+  "dich_vu_dat_may_chu_colocation": "Dạ, với dịch vụ Hạ tầng Trung tâm Dữ liệu (Đạt chuẩn Tier 3 / TIA-942), QTSC cung cấp 2 giải pháp chính:\n📍 Gửi máy chủ lẻ (Gói COLO): Phù hợp gửi từ 1 đến 5 máy chủ.\n🗄️ Thuê nguyên Tủ Rack 42U: Cấp sẵn IP Public và không gian riêng biệt cho hệ thống lớn.\n💡 Anh/chị đang có sẵn bao nhiêu thiết bị (Unit) cần gửi tại Data Center ạ?",
+
+  "dich_vu_private_cloud": "Dạ, Đám mây dùng riêng (Private Cloud) là giải pháp hạ tầng vật lý cô lập hoàn toàn, dành riêng cho một tổ chức duy nhất:\n🏢 Phù hợp: Ngân hàng, Cơ quan Nhà nước hoặc Tập đoàn lớn cần tính bảo mật cao nhất.\n🚀 Ưu điểm: Hiệu năng cố định không bị suy hao, toàn quyền quản trị kiến trúc phần cứng và mạng.\n💡 Dự án của công ty mình quy mô khoảng bao nhiêu máy chủ vật lý để em nhờ chuyên gia khảo sát ạ?",
+
+  "dich_vu_sao_luu_backup": "Dạ, Dịch vụ Cloud Backup của QTSC giúp an toàn dữ liệu tuyệt đối trước nguy cơ xóa nhầm hoặc thảm họa:\n💾 Hỗ trợ cơ chế sao lưu Disk-to-Disk-to-Tape cực kỳ an toàn.\n🔄 Tính năng Versioning (lưu nhiều phiên bản) giúp khôi phục dữ liệu nhanh chóng kể cả khi bị mã độc Ransomware mã hóa.\n💡 Quy mô dữ liệu hiện tại anh/chị cần sao lưu dự phòng là khoảng bao nhiêu GB/TB ạ?",
+
+  "dich_vu_tuong_lua_da_lop": "Dạ, Tường lửa đa lớp (Network Firewall) là 'tấm khiên' vòng ngoài giúp bảo vệ hạ tầng mạng của doanh nghiệp:\n🛡️ Tính năng: Phân tách vùng mạng an toàn, kiểm duyệt gói tin qua IP/Port và thiết lập Access Control.\n🔐 Kết nối: Cung cấp kênh mạng riêng ảo (VPN IPSec / SSL VPN) cho nhân viên làm việc từ xa an toàn.\n💡 Anh/chị cần bảo vệ bao nhiêu máy chủ để em gửi báo giá chi tiết ạ?",
+
+  "dich_vu_tuong_lua_waf": "Dạ, Tường lửa ứng dụng web (WAF) là giải pháp chuyên sâu bảo vệ 'mặt tiền' Website/API:\n🛡️ Đánh chặn tự động các kỹ thuật hack nguy hiểm như SQL Injection, XSS (Thuộc OWASP Top 10).\n⚙️ Hỗ trợ Ảo hóa bản vá (Virtual Patching), bảo vệ mã nguồn ngay cả khi lập trình viên chưa kịp sửa lỗi code.\n💡 Website của anh/chị có đang lưu trữ nhiều dữ liệu khách hàng hoặc giao dịch trực tuyến không ạ?",
+
+  "dich_vu_tuong_lua_dbfw": "Dạ, Tường lửa Cơ sở dữ liệu (DBFW) được thiết kế chuyên biệt để bảo vệ kho dữ liệu lõi của doanh nghiệp:\n🛡️ Phân tích cấu trúc câu lệnh SQL, chặn đứng các lệnh xóa/sửa dữ liệu trái phép.\n🔍 Hỗ trợ Kiểm toán (Audit) mọi thao tác và Che mờ dữ liệu nhạy cảm (Masking) chuẩn PCI-DSS.\n💡 Hệ thống của anh/chị đang dùng hệ quản trị CSDL nào (SQL Server, Oracle, MySQL...) ạ?",
+
+  "dich_vu_load_balancer": "Dạ, dịch vụ Cân bằng tải (Load Balancer) giúp điều phối thông minh luồng truy cập vào website:\n⚡ Tránh quá tải cục bộ, rất phù hợp cho các dịp Flash Sale hoặc sự kiện có truy cập đột biến.\n🔄 Tích hợp High Availability (Tự động chuyển traffic khi 1 máy chủ lỗi) và SSL Offloading (Giảm tải CPU).\n💡 Hệ thống web của anh/chị hiện tại đang chạy trên bao nhiêu máy chủ backend ạ?",
+
+  "dich_vu_chong_apt": "Dạ, đối với các loại virus nằm vùng tinh vi hoặc nguy cơ lừa đảo qua email, giải pháp phòng chống tấn công có chủ đích (APT) là sự lựa chọn tối ưu:\n🛡️ Sử dụng công nghệ Sandboxing (Hộp cát) để cô lập và kích nổ thử các file lạ.\n⚡ Phát hiện và chặn đứng mã độc Zero-day chưa từng có mẫu nhận diện trên thế giới.\n💡 Nhân viên công ty mình có thường xuyên phải tải file lạ từ bên ngoài hoặc nhận email đính kèm không ạ?",
+
+  "dich_vu_ngan_chan_ips": "Dạ, dịch vụ Phát hiện và Ngăn chặn xâm nhập (IPS) đóng vai trò như một 'máy dò' kiểm tra từng gói tin trên mạng:\n🛡️ Ngăn chặn chủ động (Active Prevention): Tự động ngắt kết nối ngay lập tức các luồng dữ liệu độc hại, rà quét lỗ hổng.\n🔄 Liên tục cập nhật các mẫu tấn công (Signature) mới nhất từ các hãng bảo mật toàn cầu.\n💡 Anh/chị có muốn đăng ký dùng thử để giám sát lưu lượng mạng hiện tại không ạ?",
+
+  "dich_vu_diet_virus_edr": "Dạ, để bảo vệ trực tiếp trên hệ điều hành máy chủ, dịch vụ EDR vượt trội hơn hẳn Antivirus truyền thống:\n🛡️ Phân tích chuỗi hành vi tiến trình, chặn đứng các loại virus tống tiền (Ransomware) sửa file hệ thống.\n⚡ Tự động cô lập, ngắt mạng máy chủ bị nhiễm mã độc ngay lập tức để tránh lây lan cho toàn bộ công ty.\n💡 Anh/chị đang sử dụng máy chủ Windows hay Linux để em tư vấn chi tiết hơn ạ?",
+
+  "dich_vu_chong_ddos": "Dạ, giải pháp Anti-DDoS chuyên dụng của QTSC giúp đảm bảo Website/Ứng dụng không bao giờ bị sập (Downtime):\n🛡️ Đánh chặn tự động luồng traffic bẩn, Botnet và các nỗ lực làm nghẽn băng thông ngay từ vòng ngoài.\n⚡ Kết hợp công nghệ hàng đầu từ Juniper và Corero, làm sạch lưu lượng trước khi chạm đến máy chủ của anh/chị.\n💡 Website của anh/chị đã từng bị tình trạng truy cập chậm do tấn công bao giờ chưa ạ?",
+
+  "dich_vu_giam_sat_soc": "Dạ, dịch vụ Trung tâm điều hành an ninh mạng (SOC) cung cấp đội ngũ chuyên gia bảo mật túc trực 24/7 thay cho doanh nghiệp:\n🛡️ Thu thập log tập trung qua hệ thống SIEM, cảnh báo sự cố theo thời gian thực.\n👨‍💻 Chuyên gia trực tiếp điều tra nguyên nhân, xử lý mã độc và báo cáo tình trạng an ninh định kỳ hàng tháng.\n💡 Giải pháp này rất phù hợp cho doanh nghiệp không có đội ngũ IT bảo mật riêng. Anh/chị có muốn chuyên viên liên hệ báo giá không ạ?",
+
+  "fallback": "Dạ, em là Trợ lý AI của QTSC. Hiện tại em chưa hiểu rõ ý của anh/chị lắm. 😅\nAnh/chị đang quan tâm đến nhóm dịch vụ nào dưới đây ạ?\n1️⃣ Thuê Máy chủ ảo (Cloud Server)\n2️⃣ Thuê chỗ đặt Máy chủ (Colocation / Tủ Rack)\n3️⃣ Giải pháp An ninh Thông tin (DDoS, WAF, SOC...)\nHoặc anh/chị có thể để lại số điện thoại để chuyên viên tư vấn liên hệ lại ngay ạ!"
+}

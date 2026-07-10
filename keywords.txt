@@ -1,0 +1,96 @@
+máy chủ ảo
+máy chủ
+cấu hình
+đám mây
+dữ liệu
+bảo mật
+lưu trữ
+cấu hình
+an toàn
+giới hạn
+truy cập
+đa lớp
+phòng chống
+thông tin
+cloud
+an ninh thông tin
+hạ tầng
+web
+bảo vệ
+edr
+waf
+soc
+ddos
+ips
+ssl
+dbfw
+hệ thống
+dịch vụ
+tường lửa
+ổ cứng
+ram
+cpu
+an ninh
+băng thông
+giá
+báo giá
+chi phí
+tấn công
+ngăn chặn
+phát hiện
+colo
+phần cứng
+cơ sở dũ liệu
+vps
+backup
+nâng cấp
+xâm nhập
+website
+dung lượng
+quản trị
+mã hóa
+hệ điều hành
+sql
+mở rộng
+load balancer
+load
+dung lượng
+balancer
+tiêu chuẩn
+lưu lượng
+internet
+ransomware
+cô lập
+ảo hoá
+cập nhật
+nhận diện
+giả mạo
+đánh giá
+phòng ngừa
+cách ly
+antivirus
+phân quyền
+kiểm duyệt
+owasp
+đánh cắp
+nhận biết
+prevention
+kiểm tra
+kiểm toán
+cloud server
+cloud
+private cloud
+public cloud
+giám sát
+firewall
+traffic
+rack
+database
+tài nguyên
+apt
+cơ sở dữ liệu
+vpn
+security
+dba
+khôi phục
+dự phòng
