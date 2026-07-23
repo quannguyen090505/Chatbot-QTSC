@@ -10,4 +10,6 @@ Lần lượt chạy các phương thức:
 - train_model.py => phương thức huấn luyện AI dựa trên tập dữ liệu dataset_qtsc.clean.csv, sinh ra 2 file não bộ cốt lõi: tfidf_vectorizer.pkl (Từ điển TF-IDF đã huấn luyện)
 naive_bayes_model.pkl (Bộ não AI  đã huấn luyện) cùng với kết quả của lần huấn luyện
 - test_model.py => phương thức kiểm thử mô hình AI bằng cách đặt câu hỏi và nhận kết quả nhãn (Label) nhận biết được AI trả về (đối với họ thuật toán NB, kết quả độ tự tin là giá trị %, còn đối với họ thuật toán SVM, kết quả trả về là khoảng cách support vector, -0.5<= độ tự tin nghĩa là AI nhận dạng tích cực đối với các nhãn
+- automation_testing.py => phương thức kiểm thử tự động hàng loạt đối với các bài test trong context_testcases.json
+- context_testcases.json => bộ các session tình huống nhằm kiểm thử khả năng phản xạ của mô hình, kiểm tra các mô hình phản ứng với các tình huống thực tế, bao gồm khách hỏi các câu hỏi cùng chủ để hay chuyển chủ đề đột ngột 
 - response.json => tập các câu trả lời ánh xạ cho các nhãn 
