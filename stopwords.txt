@@ -1,3 +1,9 @@
+dịch_vụ
+hệ_thống
+giải_pháp
+nền_tảng
+tính_năng
+chương_trình
 có
 không
 cho

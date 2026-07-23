@@ -24,8 +24,6 @@ ddos
 ips
 ssl
 dbfw
-hệ thống
-dịch vụ
 tường lửa
 ổ cứng
 ram

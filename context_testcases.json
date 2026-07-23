@@ -1,0 +1,872 @@
+[
+    [
+        {
+            "user": "cho mình hỏi về hệ sinh thái cloud server qtsc",
+            "expected_context": "cloud_server_tong_quan",
+            "expected_description": "Default"
+        },
+        {
+            "user": "có ưu điểm gì so với việc mua phần cứng không",
+            "expected_context": "cloud_server_tong_quan",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        },
+        {
+            "user": "cơ quan nhà nước có phù hợp dùng không",
+            "expected_context": "cloud_server_tong_quan",
+            "expected_description": "Tư vấn đối tượng khách hàng phù hợp sử dụng dịch vụ"
+        },
+        {
+            "user": "tôi muốn mua gói rẻ nhất cho shop nhỏ",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ vừa và nhỏ"
+        },
+        {
+            "user": "muốn mở rộng thêm ram thì tốn bao nhiêu",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ nâng cấp"
+        }
+    ],
+    [
+        {
+            "user": "báo giá gói cloud tầm trung 8 vcore",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ tầm trung"
+        },
+        {
+            "user": "còn gói cao cấp tải nặng max cấu hình thì sao",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ cao cấp"
+        },
+        {
+            "user": "muốn mua thêm ổ cứng ssd",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ nâng cấp"
+        },
+        {
+            "user": "có gói giám sát tự động khi quá tải không",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ nâng cấp"
+        },
+        {
+            "user": "tối ưu hệ điều hành 150k chống hack ngon",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ nâng cấp"
+        }
+    ],
+    [
+        {
+            "user": "khởi tạo máy ảo tự động hóa qua api",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Tính năng khởi tạo và triển khai"
+        },
+        {
+            "user": "nếu sập nguồn có live migration di chuyển không tắt máy không",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Tính sẵn sàng của hệ thống"
+        },
+        {
+            "user": "auto scaling tự động co giãn khi flash sale",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng mở rộng của hệ thống"
+        },
+        {
+            "user": "giới hạn thông lượng ổ cứng iops",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng quản lý tài nguyên và bảo mật của hệ thống"
+        }
+    ],
+    [
+        {
+            "user": "hỗ trợ object storage chuẩn s3",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng lưu trữ của hệ thống"
+        },
+        {
+            "user": "lưu trữ phân tầng tiering data cũ",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Yếu tố tối ưu hiện năng và chi phí lưu trữ"
+        },
+        {
+            "user": "làm cụm cluster shared storage",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng mở rộng và chia sẻ lưu trữ"
+        },
+        {
+            "user": "tự chia vlan subnet mạng ảo",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Kiến trúc mạng ảo hóa của hệ thống"
+        },
+        {
+            "user": "cam kết hao phí mạng băng thông",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng tối ưu hiệu năng đường truyền"
+        }
+    ],
+    [
+        {
+            "user": "thuê máy chủ vật lý bare metal cắm vào chạy",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng hỗ trợ triển khai tự động"
+        },
+        {
+            "user": "có cổng ilo idrac quản trị cấp thấp không",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng quản trị cấp thấp"
+        },
+        {
+            "user": "cấu hình dự phòng raid 5 ổ cứng",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Yếu tố an toàn dữ liệu của hệ thống"
+        },
+        {
+            "user": "giám sát thời gian thực cpu ram tủ rack",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Tính năng giám sát toàn diện"
+        },
+        {
+            "user": "hỗ trợ devops ansible puppet",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng tự động hóa quản trị"
+        }
+    ],
+    [
+        {
+            "user": "phân quyền portal tùy biến dashboard",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng cá nhân hóa giao diện và tối ưu"
+        },
+        {
+            "user": "xuất log kiểm toán audit",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng kiểm toán và lưu vết giám sát"
+        },
+        {
+            "user": "tích hợp ldap băm mật khẩu sha256",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Yếu tố định danh và xác thực đa lớp"
+        },
+        {
+            "user": "mã hóa đường truyền tls két sắt key manager",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng mã hóa và quản lý thông tin mật"
+        },
+        {
+            "user": "chống đánh cắp phiên mitm xss csrf",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng phòng chống xâm nhập và tấn công mạng"
+        }
+    ],
+    [
+        {
+            "user": "tôi muốn thuê chỗ đặt máy chủ",
+            "expected_context": "dich_vu_dat_may_chu_colocation",
+            "expected_description": "Default"
+        },
+        {
+            "user": "ngân hàng tập đoàn lớn gửi máy được không",
+            "expected_context": "dich_vu_dat_may_chu_colocation",
+            "expected_description": "Tư vấn đối tượng khách hàng phù hợp sử dụng dịch vụ"
+        },
+        {
+            "user": "trung tâm dữ liệu chuẩn tia 942 tier 3",
+            "expected_context": "dich_vu_dat_may_chu_colocation",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        },
+        {
+            "user": "tôi gửi lẻ máy 1u tốn 300w",
+            "expected_context": "dich_vu_dat_may_chu_colocation",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "thuê nguyên tủ 42u chứa 20 server",
+            "expected_context": "dich_vu_dat_may_chu_colocation",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        }
+    ],
+    [
+        {
+            "user": "thuê đám mây dùng riêng private cloud",
+            "expected_context": "dich_vu_private_cloud",
+            "expected_description": "Default"
+        },
+        {
+            "user": "tùy biến phần cứng quyền admin cao nhất",
+            "expected_context": "dich_vu_private_cloud",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        },
+        {
+            "user": "báo giá trọn gói private",
+            "expected_context": "dich_vu_private_cloud",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "lưu trữ dự phòng backup",
+            "expected_context": "dich_vu_sao_luu_backup",
+            "expected_description": "Default"
+        },
+        {
+            "user": "khôi phục dữ liệu snapshot",
+            "expected_context": "dich_vu_sao_luu_backup",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        }
+    ],
+    [
+        {
+            "user": "tường lửa mạng chặn port ip",
+            "expected_context": "dich_vu_tuong_lua_da_lop",
+            "expected_description": "Default"
+        },
+        {
+            "user": "mạng vpn ssl cho nhân viên",
+            "expected_context": "dich_vu_tuong_lua_da_lop",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "bảo vệ web bằng waf",
+            "expected_context": "dich_vu_tuong_lua_waf",
+            "expected_description": "Default"
+        },
+        {
+            "user": "ai nên dùng waf",
+            "expected_context": "dich_vu_tuong_lua_waf",
+            "expected_description": "Tư vấn đối tượng khách hàng phù hợp sử dụng dịch vụ"
+        },
+        {
+            "user": "chống sql injection ảo hóa bản vá 147 triệu",
+            "expected_context": "dich_vu_tuong_lua_waf",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        }
+    ],
+    [
+        {
+            "user": "cân bằng tải load balancer",
+            "expected_context": "dich_vu_load_balancer",
+            "expected_description": "Default"
+        },
+        {
+            "user": "cho trang thương mại điện tử flash sale",
+            "expected_context": "dich_vu_load_balancer",
+            "expected_description": "Tư vấn đối tượng khách hàng phù hợp sử dụng dịch vụ"
+        },
+        {
+            "user": "chia tải thông minh giải mã ssl 95 triệu",
+            "expected_context": "dich_vu_load_balancer",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "còn bị ddos sập mạng thì sao",
+            "expected_context": "dich_vu_chong_ddos",
+            "expected_description": "Default"
+        },
+        {
+            "user": "lọc traffic bẩn botnet 10 triệu",
+            "expected_context": "dich_vu_chong_ddos",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        }
+    ],
+    [
+        {
+            "user": "hộp cát sandboxing kích nổ virus lạ",
+            "expected_context": "dich_vu_chong_apt",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        },
+        {
+            "user": "nhân viên click nhầm link phishing mail lừa đảo",
+            "expected_context": "dich_vu_chong_apt",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        },
+        {
+            "user": "ngăn chặn xâm nhập ips rà quét mạng",
+            "expected_context": "dich_vu_ngan_chan_ips",
+            "expected_description": "Default"
+        },
+        {
+            "user": "ngắt kết nối tự động active prevention 340k",
+            "expected_context": "dich_vu_ngan_chan_ips",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        }
+    ],
+    [
+        {
+            "user": "bảo vệ csdl sql server",
+            "expected_context": "dich_vu_tuong_lua_dbfw",
+            "expected_description": "Default"
+        },
+        {
+            "user": "kiểm toán audit che mờ masking thẻ tín dụng",
+            "expected_context": "dich_vu_tuong_lua_dbfw",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        },
+        {
+            "user": "phòng chống mã độc ransomware máy chủ",
+            "expected_context": "dich_vu_diet_virus_edr",
+            "expected_description": "Default"
+        },
+        {
+            "user": "cô lập tức thời e đê rờ 153k",
+            "expected_context": "dich_vu_diet_virus_edr",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        }
+    ],
+    [
+        {
+            "user": "thuê chuyên gia giám sát an ninh 24/7",
+            "expected_context": "dich_vu_giam_sat_soc",
+            "expected_description": "Default"
+        },
+        {
+            "user": "thu thập log siem quản lý rủi ro 1 triệu 2",
+            "expected_context": "dich_vu_giam_sat_soc",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "hello alo có ai đó không",
+            "expected_context": null,
+            "expected_description": "Fallback Global"
+        }
+    ],
+    [
+        {
+            "user": "tôi có máy chủ mang tới gửi lẻ 300w",
+            "expected_context": "dich_vu_dat_may_chu_colocation",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "thôi thuê đám mây dùng riêng private cloud cho an toàn",
+            "expected_context": "dich_vu_private_cloud",
+            "expected_description": "Default"
+        },
+        {
+            "user": "mà dính virus tống tiền ransomware thì sao",
+            "expected_context": "dich_vu_diet_virus_edr",
+            "expected_description": "Default"
+        },
+        {
+            "user": "diệt virus edr giá 153k",
+            "expected_context": "dich_vu_diet_virus_edr",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        }
+    ],
+    [
+        {
+            "user": "chống hack web",
+            "expected_context": "dich_vu_tuong_lua_waf",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "147 triệu à",
+            "expected_context": "dich_vu_tuong_lua_waf",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "để tôi xem lại",
+            "expected_context": "dich_vu_tuong_lua_waf",
+            "expected_description": "Context Fallback"
+        },
+        {
+            "user": "owasp top 10",
+            "expected_context": "dich_vu_tuong_lua_waf",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        }
+    ],
+    [
+        {
+            "user": "cần mua v.p.s d v 0 1",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ vừa và nhỏ"
+        },
+        {
+            "user": "chốg d.d.ó.s sập wép",
+            "expected_context": "dich_vu_chong_ddos",
+            "expected_description": "Default"
+        },
+        {
+            "user": "c.b.t s x l óp lòding",
+            "expected_context": "dich_vu_load_balancer",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "e đê rờ cộ lập mý chũ",
+            "expected_context": "dich_vu_diet_virus_edr",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        }
+    ],
+    [
+        {
+            "user": "tường lửa mạng vpn",
+            "expected_context": "dich_vu_tuong_lua_da_lop",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "còn tường lửa web waf",
+            "expected_context": "dich_vu_tuong_lua_waf",
+            "expected_description": "Default"
+        },
+        {
+            "user": "tường lửa cơ sở dữ liệu che mờ masking",
+            "expected_context": "dich_vu_tuong_lua_dbfw",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        }
+    ],
+    [
+        {
+            "user": "chống botnet và traffic bẩn sập mạng",
+            "expected_context": "dich_vu_chong_ddos",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "chống rà quét port scan",
+            "expected_context": "dich_vu_ngan_chan_ips",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "chống tống tiền ransomware máy chủ",
+            "expected_context": "dich_vu_diet_virus_edr",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        }
+    ],
+    [
+        {
+            "user": "báo giá gói cloud entry level rẻ nhất",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ vừa và nhỏ"
+        },
+        {
+            "user": "mua thêm ổ ssd sas lẻ",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ nâng cấp"
+        },
+        {
+            "user": "gói giám sát tài nguyên 75k",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ nâng cấp"
+        },
+        {
+            "user": "tối ưu os 150k cho an toàn",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ nâng cấp"
+        }
+    ],
+    [
+        {
+            "user": "hệ sinh thái cloud qtsc bao gồm gì",
+            "expected_context": "cloud_server_tong_quan",
+            "expected_description": "Default"
+        },
+        {
+            "user": "dành cho cơ quan nhà nước được không",
+            "expected_context": "cloud_server_tong_quan",
+            "expected_description": "Tư vấn đối tượng khách hàng phù hợp sử dụng dịch vụ"
+        },
+        {
+            "user": "bảo mật xác thực đa nền tảng rbac",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Yếu tố định danh và xác thực đa lớp"
+        },
+        {
+            "user": "sẵn sàng thuê chuyên gia trực 24/7 luôn",
+            "expected_context": "dich_vu_giam_sat_soc",
+            "expected_description": "Default"
+        },
+        {
+            "user": "có xuất log siem đánh giá rủi ro",
+            "expected_context": "dich_vu_giam_sat_soc",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        }
+    ],
+    [
+        {
+            "user": "cho mình hỏi về hệ sinh thái cloud server qtsc",
+            "expected_context": "cloud_server_tong_quan",
+            "expected_description": "Default"
+        },
+        {
+            "user": "xài cái này thì đỡ tốn tiền đầu tư máy móc ban đầu đúng không",
+            "expected_context": "cloud_server_tong_quan",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        },
+        {
+            "user": "tôi làm cơ quan nhà nước thì hệ thống có đáp ứng được không",
+            "expected_context": "cloud_server_tong_quan",
+            "expected_description": "Tư vấn đối tượng khách hàng phù hợp sử dụng dịch vụ"
+        },
+        {
+            "user": "thế báo giá cho tôi gói cloud rẻ nhất đi",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ vừa và nhỏ"
+        },
+        {
+            "user": "đang xài mà muốn cắm thêm ram thì có được không",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ nâng cấp"
+        }
+    ],
+    [
+        {
+            "user": "tôi có máy chủ mang tới gửi lẻ giới hạn điện 300w thì giá sao",
+            "expected_context": "dich_vu_dat_may_chu_colocation",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "trung tâm dữ liệu chuẩn tia 942 có máy phát điện không",
+            "expected_context": "dich_vu_dat_may_chu_colocation",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        },
+        {
+            "user": "mà thôi, công ty tôi chuyển qua xài đám mây dùng riêng cho bảo mật",
+            "expected_context": "dich_vu_private_cloud",
+            "expected_description": "Default"
+        },
+        {
+            "user": "có được tùy biến phần cứng và cấp quyền admin cao nhất không",
+            "expected_context": "dich_vu_private_cloud",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        }
+    ],
+    [
+        {
+            "user": "bảo vệ website thì dùng cái gì",
+            "expected_context": "dich_vu_tuong_lua_waf",
+            "expected_description": "Default"
+        },
+        {
+            "user": "trang thương mại điện tử xài cái này để chặn sql injection đúng không",
+            "expected_context": "dich_vu_tuong_lua_waf",
+            "expected_description": "Tư vấn đối tượng khách hàng phù hợp sử dụng dịch vụ"
+        },
+        {
+            "user": "vậy báo giá gói 147 triệu đi",
+            "expected_context": "dich_vu_tuong_lua_waf",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "database của mình cần che mờ thông tin thẻ tín dụng thì sao",
+            "expected_context": "dich_vu_tuong_lua_dbfw",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        },
+        {
+            "user": "muốn mướn đội chuyên gia giám sát rủi ro 24/7",
+            "expected_context": "dich_vu_giam_sat_soc",
+            "expected_description": "Default"
+        }
+    ],
+    [
+        {
+            "user": "mình cần thuê máy ảo cấu hình khủng nhất 32gb ram",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ cao cấp"
+        },
+        {
+            "user": "mua thêm băng thông quốc tế tính giá sao",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ nâng cấp"
+        },
+        {
+            "user": "có gói bảo mật windows nào chặn đăng nhập sai không",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ nâng cấp"
+        },
+        {
+            "user": "cấu hình vps vậy nếu bị dính virus tống tiền thì cứu sao",
+            "expected_context": "dich_vu_diet_virus_edr",
+            "expected_description": "Default"
+        }
+    ],
+    [
+        {
+            "user": "thuê máy chủ vật lý cắm vào là chạy luôn à",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng hỗ trợ triển khai tự động"
+        },
+        {
+            "user": "lỡ máy sập win thì có màn hình khẩn cấp để chẩn đoán lỗi phần cứng từ xa không",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng quản trị cấp thấp"
+        },
+        {
+            "user": "tự gộp ổ cứng chạy dự phòng được không",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Yếu tố an toàn dữ liệu của hệ thống"
+        }
+    ],
+    [
+        {
+            "user": "tự vẽ sơ đồ mạng ảo vlan và subnet được không",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Kiến trúc mạng ảo hóa của hệ thống"
+        },
+        {
+            "user": "tường lửa mạng có ghi vết nhật ký audit không",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Yếu tố an ninh mạng"
+        },
+        {
+            "user": "nhưng web tôi bị quá tải thì làm sao chia đều khách",
+            "expected_context": "dich_vu_load_balancer",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        }
+    ],
+    [
+        {
+            "user": "alo admin có đó không",
+            "expected_context": null,
+            "expected_description": "Fallback Global"
+        },
+        {
+            "user": "mình muốn hỏi về đám mây",
+            "expected_context": "cloud_server_tong_quan",
+            "expected_description": "Default"
+        },
+        {
+            "user": "giá gói rẻ nhất dv01 là bao nhiêu",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ vừa và nhỏ"
+        },
+        {
+            "user": "nếu mình có máy thật muốn gửi ttdl thì sao",
+            "expected_context": "dich_vu_dat_may_chu_colocation",
+            "expected_description": "Default"
+        }
+    ],
+    [
+        {
+            "user": "chỗ chứa dữ liệu lớn có hỗ trợ chuẩn s3 không",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng lưu trữ của hệ thống"
+        },
+        {
+            "user": "có cách nào đẩy data cũ xuống ổ cứng rẻ tiền cho đỡ tốn không",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Yếu tố tối ưu hiện năng và chi phí lưu trữ"
+        },
+        {
+            "user": "nếu bị hacker xóa thì khôi phục lại dữ liệu bằng bản cũ được không",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Yếu tố an toàn dữ liệu của hệ thống"
+        },
+        {
+            "user": "báo giá gói lưu ra băng từ 3 ngàn 1gb",
+            "expected_context": "dich_vu_sao_luu_backup",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        }
+    ],
+    [
+        {
+            "user": "giải pháp hộp cát cách ly link nguy hiểm trong email",
+            "expected_context": "dich_vu_chong_apt",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        },
+        {
+            "user": "cái này có bắt được virus hoàn toàn mới chưa có chữ ký không",
+            "expected_context": "dich_vu_chong_apt",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        },
+        {
+            "user": "mình cần firewall web để chặn xss nữa",
+            "expected_context": "dich_vu_tuong_lua_waf",
+            "expected_description": "Default"
+        }
+    ],
+    [
+        {
+            "user": "giá làm đám mây riêng tốn bao nhiêu",
+            "expected_context": "dich_vu_private_cloud",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "có cách ly vật lý 100 phần trăm để bảo vệ hệ thống lõi không",
+            "expected_context": "dich_vu_private_cloud",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        },
+        {
+            "user": "chi phí thuê hệ thống ngắt kết nối tự động 340k",
+            "expected_context": "dich_vu_ngan_chan_ips",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        }
+    ],
+    [
+        {
+            "user": "mình muốn thuê vps",
+            "expected_context": "cloud_server_tong_quan",
+            "expected_description": "Default"
+        },
+        {
+            "user": "tầm giá 3 triệu thì mướn được gói nào",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ tầm trung"
+        },
+        {
+            "user": "khi tăng truy cập có tự động co giãn cấu hình không",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng mở rộng của hệ thống"
+        },
+        {
+            "user": "xuất báo cáo đánh giá rủi ro hàng tháng",
+            "expected_context": "dich_vu_giam_sat_soc",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        }
+    ],
+    [
+        {
+            "user": "phần mềm phân tích hành vi ngắt mạng khi dính virus tống tiền",
+            "expected_context": "dich_vu_diet_virus_edr",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "lỡ dữ liệu bị mã hóa thì làm sao cứu data",
+            "expected_context": "dich_vu_sao_luu_backup",
+            "expected_description": "Default"
+        },
+        {
+            "user": "giá lưu dự phòng disk to disk 4 ngàn rưỡi",
+            "expected_context": "dich_vu_sao_luu_backup",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        }
+    ],
+    [
+        {
+            "user": "giới hạn băng thông vào ra cho máy ảo được không",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng quản lý tài nguyên và bảo mật của hệ thống"
+        },
+        {
+            "user": "muốn kết nối từ xa an toàn cho nhân viên thì cấu hình sao",
+            "expected_context": "dich_vu_tuong_lua_da_lop",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "chặn rà quét cổng mạng liên tục thì dùng gói nào",
+            "expected_context": "dich_vu_ngan_chan_ips",
+            "expected_description": "Default"
+        }
+    ],
+    [
+        {
+            "user": "thuê chỗ đặt 1u thì giá sao",
+            "expected_context": "dich_vu_dat_may_chu_colocation",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "thôi thuê máy ảo xài cho linh hoạt đỡ mua phần cứng",
+            "expected_context": "cloud_server_tong_quan",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        },
+        {
+            "user": "đăng ký gói cảnh báo đầy ram qua email tốn nhiêu",
+            "expected_context": "cloud_server_goi_cuoc_va_chi_phi",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ nâng cấp"
+        }
+    ],
+    [
+        {
+            "user": "chống sập mạng do ssl attack hay http flood",
+            "expected_context": "dich_vu_chong_ddos",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "đảm bảo website không bị downtime thì ai nên dùng",
+            "expected_context": "dich_vu_chong_ddos",
+            "expected_description": "Tư vấn đối tượng khách hàng phù hợp sử dụng dịch vụ"
+        },
+        {
+            "user": "chi phí cân bằng tải 95 triệu",
+            "expected_context": "dich_vu_load_balancer",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        }
+    ],
+    [
+        {
+            "user": "có phân quyền rbac chống cướp quyền admin không",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Yếu tố định danh và xác thực đa lớp"
+        },
+        {
+            "user": "két sắt bảo mật cách ly khóa mã hóa",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng mã hóa và quản lý thông tin mật"
+        },
+        {
+            "user": "báo giá 147 triệu bảo vệ mã nguồn website",
+            "expected_context": "dich_vu_tuong_lua_waf",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        }
+    ],
+    [
+        {
+            "user": "chạy kịch bản tự động cập nhật bản vá lỗi",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng tự động hóa quản trị"
+        },
+        {
+            "user": "xuất báo cáo lịch sử hoạt động nộp cho ban thanh tra",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng cô lập ảo hóa và ghi vết kiểm toán"
+        },
+        {
+            "user": "có cấm được dba đọc trộm dữ liệu thẻ tín dụng không",
+            "expected_context": "dich_vu_tuong_lua_dbfw",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        }
+    ],
+    [
+        {
+            "user": "ơ sao nãy giờ không trả lời",
+            "expected_context": null,
+            "expected_description": "Fallback Global"
+        },
+        {
+            "user": "muốn mướn đám mây riêng",
+            "expected_context": "dich_vu_private_cloud",
+            "expected_description": "Default"
+        },
+        {
+            "user": "báo giá trọn gói dự án",
+            "expected_context": "dich_vu_private_cloud",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "thôi đem máy lên gửi nguyên tủ 42u đi",
+            "expected_context": "dich_vu_dat_may_chu_colocation",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        }
+    ],
+    [
+        {
+            "user": "làm sao thiết lập cụm server chạy chung một kho lưu trữ",
+            "expected_context": "cloud_server_tinh_nang_ky_thuat",
+            "expected_description": "Khả năng mở rộng và chia sẻ lưu trữ"
+        },
+        {
+            "user": "lỡ mất data thì khôi phục kiểu gì",
+            "expected_context": "dich_vu_sao_luu_backup",
+            "expected_description": "Default"
+        },
+        {
+            "user": "giá lưu ra băng từ",
+            "expected_context": "dich_vu_sao_luu_backup",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        }
+    ],
+    [
+        {
+            "user": "tôi cần thuê máy ảo",
+            "expected_context": "cloud_server_tong_quan",
+            "expected_description": "Default"
+        },
+        {
+            "user": "muốn thuê chuyên gia giám sát 24/7",
+            "expected_context": "dich_vu_giam_sat_soc",
+            "expected_description": "Default"
+        },
+        {
+            "user": "báo giá chống hack web 147 triệu",
+            "expected_context": "dich_vu_tuong_lua_waf",
+            "expected_description": "Tư vấn thông số gói cước và chi phí dịch vụ"
+        },
+        {
+            "user": "môi trường data center chuẩn tia 942",
+            "expected_context": "dich_vu_dat_may_chu_colocation",
+            "expected_description": "Tư vấn tính năng cốt lõi và tiêu chuẩn kỹ thuật "
+        }
+    ]
+]

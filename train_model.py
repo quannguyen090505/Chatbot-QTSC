@@ -25,7 +25,7 @@ y = df["Label"]
 
 print("2.vector hóa dữ liệu bằng TF-IDF N-grams")
 vectorizer = TfidfVectorizer(
-    max_df=0.85, analyzer="char_wb", ngram_range=(3, 4), min_df=2
+    max_df=0.4, analyzer="char_wb", ngram_range=(2, 4), min_df=2,sublinear_tf=True
 )
 
 X_tfidf = vectorizer.fit_transform(X)
